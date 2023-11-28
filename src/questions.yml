@@ -1,0 +1,31 @@
+nps_related_queries:
+  - question: What is NPS?
+    answer: The National Pension System (NPS) is a voluntary, long-term retirement savings scheme designed to enable systematic savings.
+  - question: Features of NPS?
+    answer: NPS offers flexibility in choosing investments, tax benefits, and a choice of pension fund managers.
+  - question: Eligibility for NPS?
+    answer: NPS is open to all citizens of India, including NRIs, between 18 and 60 years of age.
+  - question: Types of account in NPS?
+    answer: NPS offers two types of accounts Tier-I and Tier-II, each with different features and withdrawal options.
+  - question: How to access my NPS account?
+    answer: You can access your NPS account online through the NPS website or via the mobile app.
+
+pension_related_queries:
+  - question: How to evaluate my investments?
+    answer: You can monitor and evaluate your NPS investments by logging into your account and reviewing your portfolio.
+  - question: How will I receive my pension?
+    answer: You can receive your pension from NPS in the form of a lump sum, annuity, or a combination of both.
+  - question: What if I don't want to exit from NPS at 60 years of age?
+    answer: You can continue your NPS account even after the age of 60 and make further contributions.
+  - question: What are the rules for withdrawal from Tier-II account?
+    answer: The rules for withdrawing from the Tier-II NPS account are subject to specific terms and conditions.
+
+atal_pension_yojna_queries:
+  - question: What is pension?
+    answer: A pension is a regular payment made during a person's retirement from an investment fund to which they or their employer has contributed.
+  - question: What is Atal Pension Yojana?
+    answer: Atal Pension Yojana (APY) is a government-backed pension scheme for unorganized sector workers, offering guaranteed pension benefits.
+  - question: Who can subscribe to APY?
+    answer: Any Indian citizen in the age group of 18 to 40 years can subscribe to APY.
+  - question: What are the benefits of joining APY?
+    answer: The benefits of joining APY include a fixed minimum pension amount, government co-contribution, and a pension in case of the subscriber's demise.

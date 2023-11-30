@@ -103,92 +103,92 @@
     },
     {
         "id": "eng-4",
-        "message": "Question: I Want Aadhaar enrollment for my 0-5 years old child",
+        "message": " I Want Aadhaar enrollment for my 0-5 years old child",
         "trigger": "eng-21"
     },
     {
         "id": "eng-21",
-        "message": "Answer: You must submit any of the following valid documents:\n- POR (Proof of Relationship)\n- DOB (Date of Birth)",
+        "message": "You must submit any of the following valid documents:\n- POR (Proof of Relationship)\n- DOB (Date of Birth)",
         "trigger": "eng-2"
     },
     {
         "id": "eng-6",
-        "message": "Question: I Want Aadhaar enrollment for a new Aadhaar",
+        "message": " I Want Aadhaar enrollment for a new Aadhaar",
         "trigger": "eng-22"
     },
     {
         "id": "eng-22",
-        "message": "Answer: You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph\n- POA (Proof of Address) Document Containing Name and Indian Address\n- POR (Proof of Relationship) Document Containing Name of applicant and Name of HoF (Head of Family)\n- DOB (Date of Birth) Document Containing Name and DOB",
+        "message": "You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph\n- POA (Proof of Address) Document Containing Name and Indian Address\n- POR (Proof of Relationship) Document Containing Name of applicant and Name of HoF (Head of Family)\n- DOB (Date of Birth) Document Containing Name and DOB",
         "trigger": "eng-2"
     },
     {
         "id": "eng-8",
-        "message": "Question: I Want to correct/update my Name in my Aadhaar",
+        "message": " I Want to correct/update my Name in my Aadhaar",
         "trigger": "eng-23"
     },
     {
         "id": "eng-23",
-        "message": "Answer: You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph",
+        "message": "You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph",
         "trigger": "eng-2"
     },
     {
         "id": "eng-10",
-        "message": "Question: I Want to correct/update my Address in my Aadhaar",
+        "message": " I Want to correct/update my Address in my Aadhaar",
         "trigger": "eng-24"
     },
     {
         "id": "eng-24",
-        "message": "Answer: You must submit any of the following valid documents:\n- POA (Proof of Address) Document Containing Name and Indian Address",
+        "message": "You must submit any of the following valid documents:\n- POA (Proof of Address) Document Containing Name and Indian Address",
         "trigger": "eng-2"
     },
     {
         "id": "eng-12",
-        "message": "Question: I Want to correct/update my Date of Birth in my Aadhaar",
+        "message": " I Want to correct/update my Date of Birth in my Aadhaar",
         "trigger": "eng-25"
     },
     {
         "id": "eng-25",
-        "message": "Answer: You must submit any of the following valid documents:\n- DOB (Date of Birth) Document Containing Name and DOB",
+        "message": "You must submit any of the following valid documents:\n- DOB (Date of Birth) Document Containing Name and DOB",
         "trigger": "eng-2"
     },
     {
         "id": "eng-14",
-        "message": "Question: I Want to correct/update my Gender in my Aadhaar",
+        "message": " I Want to correct/update my Gender in my Aadhaar",
         "trigger": "eng-26"
     },
     {
         "id": "eng-26",
-        "message": "Answer: You must submit any of the following valid documents.",
+        "message": "You must submit any of the following valid documents.",
         "trigger": "eng-2"
     },
     {
         "id": "eng-16",
-        "message": "Question: I Want to update my Biometric (Photo/Fingerprint/Iris) in my Aadhaar",
+        "message": " I Want to update my Biometric (Photo/Fingerprint/Iris) in my Aadhaar",
         "trigger": "eng-27"
     },
     {
         "id": "eng-27",
-        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "message": "Please visit any nearby K1/B1 Center with Aadhaar card",
         "trigger": "eng-2"
     },
     {
         "id": "eng-18",
-        "message": "Question: I Want to update my Mobile number in my Aadhaar",
+        "message": " I Want to update my Mobile number in my Aadhaar",
         "trigger": "eng-28"
     },
     {
         "id": "eng-28",
-        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "message": "Please visit any nearby K1/B1 Center with Aadhaar card",
         "trigger": "eng-2"
     },
     {
         "id": "eng-20",
-        "message": "Question: I Want to update my email in my Aadhaar",
+        "message": " I Want to update my email in my Aadhaar",
         "trigger": "eng-29"
     },
     {
         "id": "eng-29",
-        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "message": "Please visit any nearby K1/B1 Center with Aadhaar card",
         "trigger": "eng-2"
     },
     {

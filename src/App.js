@@ -3,7 +3,7 @@ import Temp from "./temp";
 export default function App() {
   return (
     <section>
-      <inject/>
+      inject()
       <Temp />
     </section>
   );

@@ -11,440 +11,329 @@
                 "value": "English",
                 "label": "English",
                 "user": true,
-                "trigger": "0"
+                "trigger": "eng-1"
             },
             {
-                "value": "हिंदी",
-                "label": "हिंदी",
+                "value": "ಕನ್ನಡ",
+                "label": "ಕನ್ನಡ",
                 "user": true,
-                "trigger": "hindi--1"
+                "trigger": "kan--1"
             }
         ]
     },
     {
-        "id": "0",
-        "message": "Welcome to the Chatbot \n May I know your name?",
-        "trigger": "1"
+        "id": "eng-1",
+        "message": "Welcome to the chatbot. May I know your name?",
+        "trigger": "eng-user-inp"
     },
     {
-        "id": "hindi--1",
-        "message": "नमस्ते, चैटबॉट में आपका स्वागत है! आपका नाम क्या है?",
-        "trigger": "hindi-0"
-    },
-    {
-        "id": "hindi-0",
+        "id": "eng-user-inp",
         "user": true,
-        "trigger": "hindi-1"
+        "trigger": "eng-user-inp-display"
     },
     {
-        "id": "hindi-1",
-        "message": "नमस्ते {previousValue}, आपके पास कौन से प्रश्न हैं?",
-        "trigger": "hindi-2"
-    },
-    {
-        "id": "hindi-2",
-        "options": [
-            {
-                "value": "hindi-1",
-                "label": "NPS संबंधित प्रश्न",
-                "trigger": "hindi-3"
-            },
-            {
-                "value": "hindi-2",
-                "label": "अटल पेंशन योजना",
-                "trigger": "hindi-4"
-            },
-            {
-                "value": "hindi-3",
-                "label": "पेंशन संबंधित प्रश्न",
-                "trigger": "hindi-5"
-            }
-        ]
-    },
-    {
-        "id": "hindi-3",
-        "options": [
-            {
-                "value": "hindi-1",
-                "label": "NPS क्या है?",
-                "trigger": "hindi-6"
-            },
-            {
-                "value": "hindi-2",
-                "label": "NPS की विशेषताएँ?",
-                "trigger": "hindi-7"
-            },
-            {
-                "value": "hindi-3",
-                "label": "NPS के लिए पात्रता?",
-                "trigger": "hindi-8"
-            },
-            {
-                "value": "hindi-4",
-                "label": "NPS में खाते के प्रकार?",
-                "trigger": "hindi-9"
-            },
-            {
-                "value": "hindi-5",
-                "label": "मेरे NPS खाते तक पहुँच कैसे प्राप्त करें?",
-                "trigger": "hindi-10"
-            },
-            {
-                "value": "hindi-6",
-                "label": "मुख्य मेनू पर वापस जाएं",
-                "trigger": "hindi-2"
-            }
-        ]
-    },
-    {
-        "id": "hindi-4",
-        "options": [
-            {
-                "value": "hindi-1",
-                "label": "अटल पेंशन योजना क्या है?",
-                "trigger": "hindi-11"
-            },
-            {
-                "value": "hindi-2",
-                "label": "कौन APY में सदस्य बन सकता है?",
-                "trigger": "hindi-12"
-            },
-            {
-                "value": "hindi-3",
-                "label": "APY में शामिल होने के लाभ?",
-                "trigger": "hindi-13"
-            },
-            {
-                "value": "hindi-6",
-                "label": "मुख्य मेनू पर वापस जाएं",
-                "trigger": "hindi-2"
-            }
-        ]
-    },
-    {
-        "id": "hindi-5",
-        "options": [
-            {
-                "value": "hindi-1",
-                "label": "मेरे निवेशों का मूल्यांकन कैसे करें?",
-                "trigger": "hindi-14"
-            },
-            {
-                "value": "hindi-2",
-                "label": "मैं अपनी पेंशन कैसे प्राप्त करूँगा?",
-                "trigger": "hindi-15"
-            },
-            {
-                "value": "hindi-3",
-                "label": "यदि मैं 60 वर्ष की आयु में NPS से बाहर नहीं निकलना चाहता तो क्या होगा?",
-                "trigger": "hindi-16"
-            },
-            {
-                "value": "hindi-4",
-                "label": "Tier-II खाता से निकासी के नियम?",
-                "trigger": "hindi-17"
-            },
-            {
-                "value": "hindi-6",
-                "label": "मुख्य मेनू पर वापस जाएं",
-                "trigger": "hindi-2"
-            }
-        ]
-    },
-    {
-        "id": "hindi-6",
-        "message": "राष्ट्रीय पेंशन योजना (NPS) एक स्वैच्छिक, दीर्घकालिक रेटायत संचय योजना है जो सिस्टमात्मक बचत को संभावित बनाने के लिए डिज़ाइन की गई है।",
-        "trigger": "hindi-3"
-    },
-    {
-        "id": "hindi-7",
-        "message": "NPS में निवेश चुनने, कर लाभों, और पेंशन फंड प्रबंधक का चयन करने की लाचारी प्रदान की जाती है।",
-        "trigger": "hindi-3"
-    },
-    {
-        "id": "hindi-8",
-        "message": "NPS सभी भारतीय नागरिकों, भारतीय नागरिकों में शामिल, 18 से 60 वर्ष की आयु के बीच खुला है।",
-        "trigger": "hindi-3"
-    },
-    {
-        "id": "hindi-9",
-        "message": "NPS दो प्रकार के खाते प्रदान करता है - टियर-I और टियर-II, प्रत्येक में भिन्न विशेषताएँ और निकासी विकल्प हैं।",
-        "trigger": "hindi-3"
-    },
-    {
-        "id": "hindi-10",
-        "message": "आप अपने NPS खाते का ऑनलाइन एक्सेस NPS वेबसाइट या मोबाइल ऐप के माध्यम से कर सकते हैं।",
-        "trigger": "hindi-3"
-    },
-    {
-        "id": "hindi-11",
-        "message": "अटल पेंशन योजना (APY) असंगठित क्षेत्र के कामकाजी लोगों के लिए सरकार द्वारा समर्थित पेंशन योजना है, जो गारंटीत पेंशन लाभ प्रदान करती है।",
-        "trigger": "hindi-4"
-    },
-    {
-        "id": "hindi-12",
-        "message": "18 से 40 वर्ष की आयु समूह का कोई भी भारतीय नागरिक APY में सदस्य बन सकता है।",
-        "trigger": "hindi-4"
-    },
-    {
-        "id": "hindi-13",
-        "message": "APY में शामिल होने के लाभ में निर्धारित न्यूनतम पेंशन राशि, सरकारी सहयोगी योगदान, और सदस्य की मृत्यु के मामले में पेंशन शामिल हैं।",
-        "trigger": "hindi-4"
-    },
-    {
-        "id": "hindi-14",
-        "message": "आप अपने NPS निवेशों की निगरानी और मूल्यांकन कर सकते हैं, अपने खाते में लॉग इन करके और अपने पोर्टफोलियो की समीक्षा करके।",
-        "trigger": "hindi-5"
-    },
-    {
-        "id": "hindi-15",
-        "message": "आप अपनी NPS से पेंशन राशि को एक लम्बी राशि, आन्यूइटी, या दोनों का मिश्रण के रूप में प्राप्त कर सकते हैं।",
-        "trigger": "hindi-5"
-    },
-    {
-        "id": "hindi-16",
-        "message": "आप 60 वर्ष की आयु के बाद भी अपने NPS खाते को जारी रख सकते हैं और और योगदान कर सकते हैं।",
-        "trigger": "hindi-5"
-    },
-    {
-        "id": "hindi-17",
-        "message": "Tier-II NPS खाते से निकासी के नियम विशेष शर्तों और स्थितियों के अधीन होते हैं।",
-        "trigger": "hindi-5"
-    },
-    {
-        "id": "1",
-        "user": true,
-        "inputAttributes": {
-            "keyboardType": "email-address"
-        },
-        "trigger": "2"
-    },
-    {
-        "id": "2",
+        "id": "eng-user-inp-display",
         "message": "Hello {previousValue}, What queries do you have?",
-        "trigger": "3",
-        "speechSynthesisOptions": {
-            "speechText": "Hello! What queries do you have?"
-        }
+        "trigger": "eng-2"
     },
     {
-        "id": "3",
+        "id": "kan--1",
+        "message": "ಚಾಟ್‌ಬಾಟ್‌ಗೆ ಸ್ವಾಗತ. ನಿಮ್ಮ ಹೆಸರನ್ನು ತಿಳಿಸಬಹುದೇ?",
+        "trigger": "kan-user-inp"
+    },
+    {
+        "id": "kan-user-inp",
+        "user": true,
+        "trigger": "kan-user-inp-display"
+    },
+    {
+        "id": "kan-user-inp-display",
+        "message": "ಹಲೋ {previousValue}, ನಿಮಗೆ ಯಾವ ಪ್ರಶ್ನೆಗಳಿವೆ?",
+        "trigger": "kan-2"
+    },
+    {
+        "id": "eng-2",
         "options": [
             {
-                "value": 2,
-                "label": "NPS related queries",
-                "trigger": "4",
-                "speechSynthesisOptions": {
-                    "speechText": "NPS related queries"
-                }
+                "value": "eng-3",
+                "label": "For 0-5 Years Enrollment",
+                "trigger": "eng-4"
             },
             {
-                "value": 3,
-                "label": "Atal Pension Yojana",
-                "trigger": "5"
+                "value": "eng-5",
+                "label": "For Above 5 years Enrollment",
+                "trigger": "eng-6"
             },
             {
-                "value": 4,
-                "label": "Pension related queries",
-                "trigger": "6"
+                "value": "eng-7",
+                "label": "Name Update",
+                "trigger": "eng-8"
+            },
+            {
+                "value": "eng-9",
+                "label": "Address Update",
+                "trigger": "eng-10"
+            },
+            {
+                "value": "eng-11",
+                "label": "Date of Birth Update",
+                "trigger": "eng-12"
+            },
+            {
+                "value": "eng-13",
+                "label": "Gender Update",
+                "trigger": "eng-14"
+            },
+            {
+                "value": "eng-15",
+                "label": "Biometric Update",
+                "trigger": "eng-16"
+            },
+            {
+                "value": "eng-17",
+                "label": "Mobile No. Update",
+                "trigger": "eng-18"
+            },
+            {
+                "value": "eng-19",
+                "label": "Email ID Update",
+                "trigger": "eng-20"
             }
         ]
     },
     {
-        "id": "4",
+        "id": "eng-4",
+        "message": "Question: I Want Aadhaar enrollment for my 0-5 years old child",
+        "trigger": "eng-21"
+    },
+    {
+        "id": "eng-21",
+        "message": "Answer: You must submit any of the following valid documents:\n- POR (Proof of Relationship)\n- DOB (Date of Birth)",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-6",
+        "message": "Question: I Want Aadhaar enrollment for a new Aadhaar",
+        "trigger": "eng-22"
+    },
+    {
+        "id": "eng-22",
+        "message": "Answer: You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph\n- POA (Proof of Address) Document Containing Name and Indian Address\n- POR (Proof of Relationship) Document Containing Name of applicant and Name of HoF (Head of Family)\n- DOB (Date of Birth) Document Containing Name and DOB",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-8",
+        "message": "Question: I Want to correct/update my Name in my Aadhaar",
+        "trigger": "eng-23"
+    },
+    {
+        "id": "eng-23",
+        "message": "Answer: You must submit any of the following valid documents:\n- POI (Proof of Identity) Document Containing Name and Photograph",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-10",
+        "message": "Question: I Want to correct/update my Address in my Aadhaar",
+        "trigger": "eng-24"
+    },
+    {
+        "id": "eng-24",
+        "message": "Answer: You must submit any of the following valid documents:\n- POA (Proof of Address) Document Containing Name and Indian Address",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-12",
+        "message": "Question: I Want to correct/update my Date of Birth in my Aadhaar",
+        "trigger": "eng-25"
+    },
+    {
+        "id": "eng-25",
+        "message": "Answer: You must submit any of the following valid documents:\n- DOB (Date of Birth) Document Containing Name and DOB",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-14",
+        "message": "Question: I Want to correct/update my Gender in my Aadhaar",
+        "trigger": "eng-26"
+    },
+    {
+        "id": "eng-26",
+        "message": "Answer: You must submit any of the following valid documents.",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-16",
+        "message": "Question: I Want to update my Biometric (Photo/Fingerprint/Iris) in my Aadhaar",
+        "trigger": "eng-27"
+    },
+    {
+        "id": "eng-27",
+        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-18",
+        "message": "Question: I Want to update my Mobile number in my Aadhaar",
+        "trigger": "eng-28"
+    },
+    {
+        "id": "eng-28",
+        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "eng-20",
+        "message": "Question: I Want to update my email in my Aadhaar",
+        "trigger": "eng-29"
+    },
+    {
+        "id": "eng-29",
+        "message": "Answer: Please visit any nearby K1/B1 Center with Aadhaar card",
+        "trigger": "eng-2"
+    },
+    {
+        "id": "kan-1",
+        "message": "ಆಧಾರ್ ಸೇವೆಗಳ ನಾಗರಿಕ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಉತ್ತರಗಳು",
+        "trigger": "kan-2"
+    },
+    {
+        "id": "kan-2",
         "options": [
             {
-                "value": 2,
-                "label": "What is NPS?",
-                "trigger": "7"
+                "value": "kan-3",
+                "label": "0-5 ವರ್ಷಗಳ ನೊಂದಣಿಗೆ",
+                "trigger": "kan-4"
             },
             {
-                "value": 3,
-                "label": "Features of NPS?",
-                "trigger": "8"
+                "value": "kan-5",
+                "label": "5 ವರ್ಷಗಳಿಗಿಂತ ಹೆಚ್ಚು ನೊಂದಣಿಗೆ",
+                "trigger": "kan-6"
             },
             {
-                "value": 4,
-                "label": "Eligibility for NPS?",
-                "trigger": "9"
+                "value": "kan-7",
+                "label": "ಹೆಸರು ನವಿರುವುದು",
+                "trigger": "kan-8"
             },
             {
-                "value": 5,
-                "label": "Types of account in NPS?",
-                "trigger": "10"
+                "value": "kan-9",
+                "label": "ವಿಳಾಸ ನವಿರುವುದು",
+                "trigger": "kan-10"
             },
             {
-                "value": 6,
-                "label": "How to access my NPS account?",
-                "trigger": "11"
+                "value": "kan-11",
+                "label": "ಹುಟ್ಟು ದಿನ ನವಿರುವುದು",
+                "trigger": "kan-12"
             },
             {
-                "value": 7,
-                "label": "Go back to Main Menu",
-                "trigger": "3"
+                "value": "kan-13",
+                "label": "ಲಿಂಗ ನವಿರುವುದು",
+                "trigger": "kan-14"
+            },
+            {
+                "value": "kan-15",
+                "label": "ಬಯೋಮೆಟ್ರಿಕ್ ನವಿರುವುದು",
+                "trigger": "kan-16"
+            },
+            {
+                "value": "kan-17",
+                "label": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ನವಿರುವುದು",
+                "trigger": "kan-18"
+            },
+            {
+                "value": "kan-19",
+                "label": "ಇಮೇಲ್ ಐಡಿ ನವಿರುವುದು",
+                "trigger": "kan-20"
             }
         ]
     },
     {
-        "id": "106",
-        "options": [
-            {
-                "value": 107,
-                "label": "NPS क्या है?",
-                "speechSynthesisOptions": {
-                    "speechText": "NPS क्या है?"
-                }
-            },
-            {
-                "value": 108,
-                "label": "NPS की विशेषताएँ?",
-                "speechSynthesisOptions": {
-                    "speechText": "NPS की विशेषताएँ?"
-                }
-            },
-            {
-                "value": 109,
-                "label": "NPS के लिए पात्रता?",
-                "speechSynthesisOptions": {
-                    "speechText": "NPS के लिए पात्रता?"
-                }
-            },
-            {
-                "value": 110,
-                "label": "NPS में खाते के प्रकार?",
-                "speechSynthesisOptions": {
-                    "speechText": "NPS में खाते के प्रकार?"
-                }
-            },
-            {
-                "value": 111,
-                "label": "मेरे NPS खाते तक पहुँच कैसे प्राप्त करें?",
-                "speechSynthesisOptions": {
-                    "speechText": "मेरे NPS खाते तक पहुँच कैसे प्राप्त करें?"
-                }
-            },
-            {
-                "value": 112,
-                "label": "मुख्य मेनू पर वापस जाएं",
-                "speechSynthesisOptions": {
-                    "speechText": "मुख्य मेनू पर वापस जाएं"
-                }
-            }
-        ]
+        "id": "kan-4",
+        "message": "ಪ್ರಶ್ನೆ: 0-5 ವರ್ಷದ ನನ್ನ ಮಗುವಿಗೆ ಆಧಾರ್ ನೊಂದಣಿ ಬೇಕಾಗಿದೆ",
+        "trigger": "kan-21"
     },
     {
-        "id": "5",
-        "options": [
-            {
-                "value": 2,
-                "label": "What is Atal Pension Yojana?",
-                "trigger": "12"
-            },
-            {
-                "value": 3,
-                "label": "Who can subscribe to APY?",
-                "trigger": "13"
-            },
-            {
-                "value": 4,
-                "label": "Benefits of joining APY?",
-                "trigger": "14"
-            },
-            {
-                "value": 7,
-                "label": "Go back to Main Menu",
-                "trigger": "3"
-            }
-        ]
+        "id": "kan-21",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- POR (ಸಂಬಂಧ ಸಾಕ್ಷ್ಯ)\n- DOB (ಹುಟ್ಟು ದಿನ)",
+        "trigger": "kan-2"
     },
     {
-        "id": "6",
-        "options": [
-            {
-                "value": 2,
-                "label": "How to evaluate my investments?",
-                "trigger": "15"
-            },
-            {
-                "value": 3,
-                "label": "How will I receive my pension?",
-                "trigger": "16"
-            },
-            {
-                "value": 4,
-                "label": "What if I don't want to exit from NPS at 60 years of age?",
-                "trigger": "17"
-            },
-            {
-                "value": 5,
-                "label": "What are the rules for withdrawal from Tier-II account?",
-                "trigger": "18"
-            },
-            {
-                "value": 7,
-                "label": "Go back to Main Menu",
-                "trigger": "3"
-            }
-        ]
+        "id": "kan-6",
+        "message": "ಪ್ರಶ್ನೆ: ಹೊಸ ಆಧಾರ್ ನೊಂದಣಿ ಬೇಕಾಗಿದೆ",
+        "trigger": "kan-22"
     },
     {
-        "id": "7",
-        "message": "The National Pension System (NPS) is a voluntary, long-term retirement savings scheme designed to enable systematic savings.",
-        "trigger": "4"
+        "id": "kan-22",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- POI (ವ್ಯಕ್ತಿಗತ ಸಾಕ್ಷ್ಯ) ನಾಮ ಮತ್ತು ಛಾಯಾಚಿತ್ರ ಹೊಂದಿರುವ ದಾಖಲೆ\n- POA (ವಿಳಾಸ ಸಾಕ್ಷ್ಯ) ನಾಮ ಮತ್ತು ಭಾರತೀಯ ವಿಳಾಸ ಹೊಂದಿರುವ ದಾಖಲೆ\n- POR (ಸಂಬಂಧ ಸಾಕ್ಷ್ಯ) ಅರ್ಜಿದಾರರ ಹೆಸರು ಮತ್ತು ಕುಟುಂಬದ ಹೆಸರು ಹೊಂದಿರುವ ದಾಖಲೆ\n- DOB (ಹುಟ್ಟು ದಿನ) ಹೆಸರು ಮತ್ತು ಹುಟ್ಟು ದಿನ ಹೊಂದಿರುವ ದಾಖಲೆ",
+        "trigger": "kan-2"
     },
     {
-        "id": "8",
-        "message": "NPS offers flexibility in choosing investments, tax benefits, and a choice of pension fund managers.",
-        "trigger": "4"
+        "id": "kan-8",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಆಧಾರ್ ನಲ್ಲಿ ನನ್ನ ಹೆಸರನ್ನು ಸರಿಪಡಿಸಬೇಕು",
+        "trigger": "kan-23"
     },
     {
-        "id": "9",
-        "message": "NPS is open to all citizens of India, including NRIs, between 18 and 60 years of age.",
-        "trigger": "4"
+        "id": "kan-23",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- POI (ವ್ಯಕ್ತಿಗತ ಸಾಕ್ಷ್ಯ) ನಾಮ ಮತ್ತು ಛಾಯಾಚಿತ್ರ ಹೊಂದಿರುವ ದಾಖಲೆ",
+        "trigger": "kan-2"
     },
     {
-        "id": "10",
-        "message": "NPS offers two types of accounts Tier-I and Tier-II, each with different features and withdrawal options.",
-        "trigger": "4"
+        "id": "kan-10",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಆಧಾರ್ ನಲ್ಲಿ ನನ್ನ ವಿಳಾಸವನ್ನು ಸರಿಪಡಿಸಬೇಕು",
+        "trigger": "kan-24"
     },
     {
-        "id": "11",
-        "message": "You can access your NPS account online through the NPS website or via the mobile app.",
-        "trigger": "4"
+        "id": "kan-24",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- POA (ವಿಳಾಸ ಸಾಕ್ಷ್ಯ) ನಾಮ ಮತ್ತು ಭಾರತೀಯ ವಿಳಾಸ ಹೊಂದಿರುವ ದಾಖಲೆ",
+        "trigger": "kan-2"
     },
     {
-        "id": "12",
-        "message": "Atal Pension Yojana (APY) is a government-backed pension scheme for unorganized sector workers, offering guaranteed pension benefits.",
-        "trigger": "5"
+        "id": "kan-12",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಆಧಾರ್ ನಲ್ಲಿ ನನ್ನ ಹುಟ್ಟು ದಿನವನ್ನು ಸರಿಪಡಿಸಬೇಕು",
+        "trigger": "kan-25"
     },
     {
-        "id": "13",
-        "message": "Any Indian citizen in the age group of 18 to 40 years can subscribe to APY.",
-        "trigger": "5"
+        "id": "kan-25",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- DOB (ಹುಟ್ಟು ದಿನ) ಹೆಸರು ಮತ್ತು ಹುಟ್ಟು ದಿನ ಹೊಂದಿರುವ ದಾಖಲೆ",
+        "trigger": "kan-2"
     },
     {
-        "id": "14",
-        "message": "The benefits of joining APY include a fixed minimum pension amount, government co-contribution, and a pension in case of the subscriber's demise.",
-        "trigger": "5"
+        "id": "kan-14",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಆಧಾರ್ ನಲ್ಲಿ ನನ್ನ ಲಿಂಗವನ್ನು ಸರಿಪಡಿಸಬೇಕು",
+        "trigger": "kan-26"
     },
     {
-        "id": "15",
-        "message": "You can monitor and evaluate your NPS investments by logging into your account and reviewing your portfolio.",
-        "trigger": "6"
+        "id": "kan-26",
+        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು.",
+        "trigger": "kan-2"
     },
     {
-        "id": "16",
-        "message": "You can receive your pension from NPS in the form of a lump sum, annuity, or a combination of both.",
-        "trigger": "6"
+        "id": "kan-16",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಆಧಾರ್ ನಲ್ಲಿ ನನ್ನ ಬಯೋಮೆಟ್ರಿಕ್‌ಗಳನ್ನು (ಫೋಟೋ / ಬೆರಳು ಚಿತ್ರ / ಐರಿಸ್) ಸರಿಪಡಿಸಬೇಕು",
+        "trigger": "kan-27"
     },
     {
-        "id": "17",
-        "message": "You can continue your NPS account even after the age of 60 and make further contributions.",
-        "trigger": "6"
+        "id": "kan-27",
+        "message": "ಉತ್ತರ: ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹತ್ತಿರದ ಯಾವುದೇ ಸಮೀಪದ K1/B1 ಕೇಂದ್ರಕ್ಕೆ ಆಧಾರ್ ಕಾರ್ಡ್‌ನೊಂದಿಗೆ ಭೇಟಿಯಿಡಿ",
+        "trigger": "kan-2"
     },
     {
-        "id": "18",
-        "message": "The rules for withdrawing from the Tier-II NPS account are subject to specific terms and conditions.",
-        "trigger": "6"
+        "id": "kan-18",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನವಿರುವುದು",
+        "trigger": "kan-28"
+    },
+    {
+        "id": "kan-28",
+        "message": "ಉತ್ತರ: ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹತ್ತಿರದ ಯಾವುದೇ ಸಮೀಪದ K1/B1 ಕೇಂದ್ರಕ್ಕೆ ಆಧಾರ್ ಕಾರ್ಡ್‌ನೊಂದಿಗೆ ಭೇಟಿಯಿಡಿ",
+        "trigger": "kan-2"
+    },
+    {
+        "id": "kan-20",
+        "message": "ಪ್ರಶ್ನೆ: ನನ್ನ ಇಮೇಲ್ ಐಡಿಯನ್ನು ನವಿರುವುದು",
+        "trigger": "kan-29"
+    },
+    {
+        "id": "kan-29",
+        "message": "ಉತ್ತರ: ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹತ್ತಿರದ ಯಾವುದೇ ಸಮೀಪದ K1/B1 ಕೇಂದ್ರಕ್ಕೆ ಆಧಾರ್ ಕಾರ್ಡ್‌ನೊಂದಿಗೆ ಭೇಟಿಯಿಡಿ",
+        "trigger": "kan-2"
     }
 ]

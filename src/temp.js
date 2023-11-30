@@ -3,7 +3,6 @@ import Chatbot from "react-simple-chatbot";
 import { ThemeProvider } from 'styled-components';
 import steps from './data/steps.json';
 import logo from './CMSlogo.png'
-import { Analytics } from '@vercel/analytics/react';
 
 const theme = {
     background: '#C9FF8F',
@@ -36,7 +35,6 @@ export default function Temp() {
                     {...config} // --> Passing the configuration details in the chatbot component.
                 />
             </ThemeProvider>
-            <Analytics />
         </>
     );
 }

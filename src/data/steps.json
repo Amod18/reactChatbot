@@ -139,7 +139,7 @@
     },
     {
         "id": "eng-26",
-        "message": "You must submit any of the following valid documents.",
+        "message": "You must submit any verifiable documents containing name and date of birth",
         "trigger": "opt-mess-1"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
         "id": "kan-21",
-        "message": "ಉತ್ತರ: ನೀವು ಈ ಯುವ ದಾಖಲೆಗಳಲ್ಲಿನ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು:\n- POR (ಸಂಬಂಧ ಸಾಕ್ಷ್ಯ)\n- DOB (ಹುಟ್ಟು ದಿನ)",
+        "message": "ನೀವು ಈ ಕೆಳಗಿನ ದಾಖಲೆಗಳಲ್ಲಿ ಯಾವುದಾದರೂ ಒಂದನ್ನು ಸಲ್ಲಿಸಬೇಕು: - POR (ಸಂಬಂಧ ಸಾಕ್ಷ್ಯ) - DOB (ಹುಟ್ಟು ದಿನ ಪ್ರಮಾಣಪತ್ರ",
         "trigger": "kan-opt-mess-1"
     },
     {

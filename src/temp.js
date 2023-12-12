@@ -15,9 +15,9 @@ const theme = {
     userFontColor: 'black',
 };
 
-const config = {
-    floating: true,
-};
+// const config = {
+//     floating: true,
+// };
 
 export default function Temp() {
     return (
@@ -28,7 +28,7 @@ export default function Temp() {
                     botAvatar={logo} // --> Bot logo.
                     headerTitle="Chatbot" // --> Title for the chat.
                     steps={steps} // --> Passing the json file in the chatbot component.
-                    {...config} // --> Passing the configuration details in the chatbot component.
+                    // {...config} // --> Passing the configuration details in the chatbot component.
                 />
             </ThemeProvider>
         </>
